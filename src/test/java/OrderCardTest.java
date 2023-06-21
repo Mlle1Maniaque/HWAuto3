@@ -32,7 +32,7 @@ public class OrderCardTest {
     
     @Test
     void shouldOrder1() {
-        driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Иванова Мария");
+        driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Иванова Мария1");
         driver.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+79370006989");
         driver.findElement(By.className("checkbox__box")).click();
         driver.findElement(By.className("button")).click();
